@@ -1,0 +1,103 @@
+/* General Reset */
+body {
+  background-color: #f4f6f9;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #212529;
+  margin: 0;
+  padding: 0;
+}
+
+/* Headings & Layout */
+h1 {
+  font-size: 2rem;
+  color: #333;
+}
+
+.card {
+  transition: box-shadow 0.3s ease;
+  border: none;
+  border-radius: 12px;
+  background-color: #fff;
+}
+
+.card:hover {
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* Text Content */
+.text-content {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+/* Audio Player */
+audio {
+  width: 100%;
+  max-width: 400px;
+  outline: none;
+}
+
+/* Buttons */
+button.btn {
+  min-width: 120px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+button.btn:focus {
+  outline: 3px solid #0d6efd50;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .text-content {
+    font-size: 1rem;
+  }
+
+  button.btn {
+    width: 100%;
+    margin-top: 0.5rem;
+  }
+
+  nav.text-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* DARK MODE */
+body.dark-mode {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+body.dark-mode .card {
+  background-color: #1e1e1e;
+  color: #e0e0e0;
+  box-shadow: 0 6px 20px rgba(255, 255, 255, 0.05);
+}
+
+body.dark-mode .btn-primary {
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
+
+body.dark-mode .btn-outline-secondary {
+  color: #ccc;
+  border-color: #555;
+}
+
+body.dark-mode .btn-outline-secondary:hover {
+  background-color: #444;
+  color: #fff;
+}
+
+body.dark-mode .form-check-label {
+  color: #ccc;
+}
