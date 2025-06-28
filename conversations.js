@@ -44,8 +44,9 @@ const conversations = [
     id: 6,
     title: "Presentation 5: Marcus Lee",
     text: `
-/*       Hi, I’m Marcus Lee, but feel free to call me Marcus. I’m 21 years old and I come from the United States. At the moment, I live in Chicago. I’ve had some experience working in customer service and retail, and I’m now a full-time university student. One of my main goals is to become a software engineer and work on innovative tech projects. I’d love to learn Japanese and how to build mobile apps. I’ve already traveled to New York, San Francisco, and Toronto, but I really want to visit Tokyo and Seoul in the future. I speak English fluently and I’m studying Spanish. My favorite books are science fiction, I enjoy action movies, and I listen to a mix of electronic and jazz music. I’m skilled at problem-solving, coding, and organizing events. I like learning new technologies, playing video games, and swimming, but I’m not a fan of spicy food or crowded places. During my free time, I usually play guitar, hang out with friends, or work on personal coding projects.
- */    `,
-    audio: "audio-5.mp3",
+      The text will be added later...
+    `,
+    audio: "audio-6.mp3",
   },
+
 ];
