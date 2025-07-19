@@ -48,5 +48,13 @@ const conversations = [
     `,
     audio: "audio-6.mp3",
   },
+  {
+    id: 7,
+    title: "My First Job and What I’ve Learned Since Then ",
+    text: `
+      I started working at a coffee shop when I was 17. It was my first real job, and I remember how nervous I felt on my first day. I made mistakes, spilled drinks, and forgot orders. Since then, I’ve learned a lot about responsibility and communication. I’ve worked in three different places, and I’ve handled many difficult situations. Working has helped me grow, and I’ve realized that every challenge teaches something valuable.
+    `,
+    audio: "audio-7.mp3",
+  },
 
 ];
