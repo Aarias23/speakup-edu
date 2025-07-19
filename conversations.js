@@ -56,5 +56,33 @@ const conversations = [
     `,
     audio: "audio-7.mp3",
   },
+  {
+    id: 8,
+    title: "Kenji from Japan",
+    text: `
+      Just listen...`,
+    audio: "audio-8.mp3",
+  },
+  {
+    id: 9,
+    title: "Amara from Kenya",
+    text: `
+      Just listen...`,
+    audio: "audio-9.mp3",
+  },
+  {
+    id: 10,
+    title: "Luis from Mexico",
+    text: `
+      Just listen...`,
+    audio: "audio-10.mp3",
+  },
+  {
+    id: 11,
+    title: "Mira from Germany",
+    text: `
+      Just listen...`,
+    audio: "audio-11.mp3",
+  },
 
 ];
